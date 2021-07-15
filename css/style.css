@@ -40,6 +40,8 @@
 }
 
 .header {
+  width: 100%;
+  height: 70px;
   position: fixed;
   top: 0;
   background-color: #fff;
@@ -47,6 +49,7 @@
 }
 
 .header__inner {
+  margin: 0 auto;
   padding: 15px 0;
 }
 
@@ -54,6 +57,11 @@
   float: left;
   color: #4e4e4e;
   font-size: 2.5em;
+}
+
+.theme {
+  padding: 250px 0;
+  margin-top: 70px;
 }
 
 .header__contact {
@@ -65,7 +73,6 @@
 }
 
 .inner__theme {
-  padding: 250px 0;
   text-align: center;
 }
 
@@ -73,12 +80,12 @@
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
+  margin-bottom: 20px;
 }
 
 .inner__theme__sub-title {
   font-size: 30px;
   color: #c0c0c0;
-  padding-top: 20px;
 }
 
 .section__inner-green {
@@ -87,22 +94,23 @@
 
 .section__pic {
   float: left;
-  padding: 0 120px;
+  margin: 0 50px;
 }
 
 .section__box {
+  float: right;
+  width: 750px;
   color: #fff;
   text-align: center;
-  padding: 50px;
 }
 
 .section__box__title {
   font-size: 24px;
+  margin-bottom: 35px;
 }
 
 .section__box__text {
   font-size: 20px;
-  padding-top: 35px;
 }
 
 .article__inner {
@@ -110,13 +118,14 @@
 }
 
 .article__inner__content {
-  padding: 40px 0 90px;
+  margin-bottom: 90px;
 }
 
 .article__inner__title {
   font-size: 24px;
   color: #4e4e4e;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .article__pic {
@@ -147,8 +156,8 @@
 }
 
 .article__bottom__text {
-  color: #c0c0c0;
-  padding-right: 90px;
+  color: #4e4e4e;
+  margin-right: 90px;
   width: 530px;
   text-align: center;
 }
@@ -164,10 +173,11 @@
   text-align: center;
   color: #fff;
   font-size: 24px;
+  margin-bottom: 50px;
 }
 
 .section__inner__pic {
-  padding: 50px 0 20px;
+  margin-bottom: 20px;
 }
 
 .section__inner__circle {
@@ -194,7 +204,7 @@
   width: 185px;
   padding: 20px 0;
   color: #74cfae;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
   transition-delay: 0.3s;
 }
