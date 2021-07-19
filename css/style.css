@@ -1,9 +1,8 @@
-.font__maintitle {
+.font__title {
   font-family: "Raleway";
 }
 
-.font__title,
-.font__content {
+.font__base {
   font-family: "Lato";
 }
 
@@ -99,7 +98,7 @@
 
 .section__box {
   float: right;
-  width: 750px;
+  width: 680px;
   color: #fff;
   text-align: center;
   margin-left: 50px;
@@ -160,8 +159,7 @@
 
 .article__bottom__text {
   color: #4e4e4e;
-  margin-right: 90px;
-  width: 530px;
+  width: 460px;
   text-align: center;
 }
 
@@ -170,6 +168,12 @@
   padding: 14px 20px;
   color: #fff;
   background-color: #74cfae;
+  margin-left: 90px;
+}
+
+.section__inner__content {
+  display: flex;
+  justify-content: center;
 }
 
 .section__inner__title {
@@ -179,7 +183,6 @@
 }
 
 .section__inner__circle {
-  float: left;
   margin: 50px 0 10px 180px;
   font-size: 16px;
   color: #fff;
